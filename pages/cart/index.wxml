@@ -1,0 +1,23 @@
+<view class='btm_tool'>
+  <view class='tool_item'>
+    <view class="iconfont iconkefu"></view>
+    <view>客服</view>
+    <button open-type="contact"></button>
+  </view>
+  <view class='tool_item'>
+    <view class="iconfont iconyixianshi-"></view>
+    <view>分享</view>
+    <button open-type="share"></button>
+  </view>
+  <view class='tool_item'>
+    <view class="iconfont icongouwuche"></view>
+    <view>购物车</view>
+  </view>
+  <view class='tool_item btn_cart'
+   bindtap="handleCartAdd">
+   加入购物车
+  </view>
+  <view class='tool_item btn_buy'>
+   立即购买
+  </view>
+</view>

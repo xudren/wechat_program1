@@ -1,0 +1,5 @@
+<!--pages/goods_list/index.wxml-->
+<view>
+  <Searchinput></Searchinput>
+  <Tabs tabs="{{tabs}}" bindtabsItemChange='handleTabsItemChange'></Tabs>
+</view>
