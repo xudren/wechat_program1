@@ -29,7 +29,6 @@ Page({
     tabs.forEach((v,i)=>
     v.id===index?v.isActive=true:v.isActive=false
     )
-    console.log(e,'e')
     this.setData({
       tabs
     })
