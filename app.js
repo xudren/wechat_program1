@@ -18,7 +18,6 @@ App({
    * 当小程序从前台进入后台，会触发 onHide
    */
   onHide: function () {
-    console.log(33333)
   },
 
   /**
